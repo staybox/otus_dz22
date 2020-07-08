@@ -15,13 +15,13 @@ LDAP
 - Сделан Vagrantfile и ansible плейбуки, разворачивающие готовый стенд с FreeIPA с авторизацией по ssh ключам:
 
 - В профиле пользователя на сервере FreeIPA уже присутствует открытый ключ для возможности аутентификации на машинах домена по ключу (генерируется командой ```ssh-keygen -t rsa```)
- ![Image 1](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/freeipa.PNG)
+ ![Image 1](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/freeipa.png)
 
  - Проверяем что все работает
- ![Image 2](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/ssh.PNG)
+ ![Image 2](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/ssh.png)
 
  - Также сделаны настройки чтобы пользоваль мог выполнить команды от имени суперпользователя
- ![Image 3](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/sudo.PNG) 
+ ![Image 3](https://raw.githubusercontent.com/staybox/dz22/master/screenshots/sudo.png) 
 
 
 
